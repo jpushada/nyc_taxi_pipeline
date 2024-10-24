@@ -3,12 +3,12 @@ SOURCE_DATA_URL = "https://d37ci6vzurychx.cloudfront.net/trip-data/"
 
 #GCS Configuration
 GCS_BUCKET_NAME = "nyc_raw_zone"
-GOOGLE_APP_CREDENTIALS = "D:/Dijendra/MyProjects/gcp_config/nyc-taxi-pipeline-439606-7787e5221af1.json"
+GOOGLE_APP_CREDENTIALS = ""C:/Users/ajay/nyc/nyc-data-pipeline-cebff4db0fce.json""
 
 #Azure Blob Storage Configuration
-AZURE_STORAGE_ACCOUNT = "nycstorageac"
+AZURE_STORAGE_ACCOUNT = "nycstorageacc"
 AZURE_CONTAINER_NAME = "nyc-raw-data"
-AZURE_SAS_TOKEN = "sp=rwdl&st=2024-10-24T06:33:43Z&se=2024-12-24T15:33:43Z&spr=https&sv=2022-11-02&sr=c&sig=NfiHNvRlb1ysK8FXa1xXvgbDOLrR7eiIb2D55sS4Hhc%3D"
+AZURE_SAS_TOKEN = "sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2024-11-27T22:07:31Z&st=2024-10-24T14:07:31Z&spr=https&sig=IGrwFhWGfZ0Sk3BYDt%2FHwL281U%2Fmp60znaQ7LDYBCVU%3D"
 
 
 CHUNK_SIZE = 1024*1024
